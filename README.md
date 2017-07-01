@@ -1,5 +1,6 @@
 # Aquarium
 [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)
+[![C](https://img.shields.io/badge/Copyright-True-brightgreen.svg)
 # Notes
 This game is made for [DRAGONBLOOD830](https://github.com/DRAGONBLOOD830)
 
