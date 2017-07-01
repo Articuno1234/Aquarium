@@ -3,6 +3,8 @@ import os
 import random
 import time
 fish = False
+moto = ["an awesome fish game", "Fishy wishy"]
+mfish = ["<()", "()>", " "]
 IS_WINDOWS = os.name == "nt"
 IS_MAC = sys.platform == "darwin"
 INTERACTIVE_MODE = not len(sys.argv) > 1  # CLI flags = non-interactive
@@ -24,9 +26,9 @@ def user_choice():
 def menu():
   clear_screen()
   print("-=-=-=-=-=-=-=-=-=-=-=-=-\n"
-        "        Aquarium         \n"
+        "  {}      Aquarium    {}     \n"
         "       {}                \n"
-        "-=-=-=-=-=-=-=-=-=-=-=-=-\n".format(random.choice(moto)))
+        "-=-=-=-=-=-=-=-=-=-=-=-=-\n".format(random.choice(mfish), random.choice(mfish), random.choice(moto)))
   print("1. Start")
   print("2. Credits")
   print("0. Exit")
@@ -40,13 +42,15 @@ def menu():
     time.sleep(2)
     sys.exit(1)
 def credits():
+  clear_screen()
   print("Project Leaders\n"
         "DRAGONBLOOD830\n"
         "Developers\n"
         "Articuno1234\n")
   wait()
-  game()
+  menu()
 def game():
+  clear_screen()
   print("==============================================\n"
         "                                              \n"
         "                                              \n"
@@ -65,6 +69,7 @@ def game():
   if choice == "menu":
     menu()
 def shop():
+  clear_screen()
   print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
         "Shop\n"
         "\n"
@@ -76,3 +81,6 @@ def shop():
     fish = True
     print("Would you like to buy fish (i know you would anyway :))")
     wait()
+
+menu = menu()
+print(menu)
