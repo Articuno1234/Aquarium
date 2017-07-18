@@ -17,3 +17,4 @@ python3 run.py
 ```
 
 # Requirements
+Piracy is a CRIME and the FBI will hurt and detain you if you pirate!
