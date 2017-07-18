@@ -3,7 +3,7 @@
 [![C](https://img.shields.io/badge/Copyright-True-brightgreen.svg)
 # Notes
 This game isn't much yet but more will be added.
-This game is made for [DRAGONBLOOD830](https://github.com/DRAGONBLOOD830). Ps: Go to https://targetgamingweb.jimdo.com/ for more games in the future and our discourd. :)
+This game is made for [DRAGONBLOOD830](https://github.com/DRAGONBLOOD830). Ps: Go to https://targetgamingweb.jimdo.com/ for more games in the future and our discord. :)
 
 # Installing
 ```
