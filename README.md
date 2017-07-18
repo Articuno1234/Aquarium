@@ -4,7 +4,7 @@
 # Notes
 This game isn't much yet but more will be added.
 This game is made for [DRAGONBLOOD830](https://github.com/DRAGONBLOOD830). Ps: Go to https://targetgamingweb.jimdo.com/ for more games in the future and our discord. :)
-
+Piracy is a CRIME and the FBI will hurt and detain you if you pirate! (DRAGONBLOOD830)
 # Installing
 ```
 git clone https://github.com/Articuno1234/Aquarium
@@ -17,4 +17,4 @@ python3 run.py
 ```
 
 # Requirements
-Piracy is a CRIME and the FBI will hurt and detain you if you pirate!
+
